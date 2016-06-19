@@ -9,4 +9,4 @@ const display_sum = (list) =>
 
 document.querySelector('#some_button').onclick = () =>
     document.querySelector('#some_h1').innerHTML =
-        display_sum([1, 2, 3, 4, 5, 6])
+        display_sum([1, 2, 3])

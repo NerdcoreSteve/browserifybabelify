@@ -16,7 +16,7 @@ var display_sum = function display_sum(list) {
 };
 
 document.querySelector('#some_button').onclick = function () {
-    return document.querySelector('#some_h1').innerHTML = display_sum([1, 2, 3, 4, 5, 6]);
+    return document.querySelector('#some_h1').innerHTML = display_sum([1, 2, 3]);
 };
 
 },{"ramda":2}],2:[function(require,module,exports){
